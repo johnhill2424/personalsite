@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "babel":{
-    "presets":[
+  "babel": {
+    "presets": [
       "@babel/preset-env",
       "@babel/preset-react"
     ]
@@ -24,6 +24,7 @@
   "dependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.3",
+    "babel-loader": "^8.0.5",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "react": "^16.8.2",
